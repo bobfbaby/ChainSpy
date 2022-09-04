@@ -37,6 +37,9 @@
     <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ChainSpy.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\Resources\Keys\livecoinwatch.txt">
+      <PackagePath>Resources\Keys\livecoinwatch.txt</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bobfbaby\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.8\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
     </AppxPackagedFile>

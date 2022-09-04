@@ -400,4 +400,6 @@ FodyWeavers.xsd
 
 # Local History for Visual Studio
 Resources/Keys/
-ChainSpy/Keys/
+ChainSpy/Resources/Keys/
+Resources/Raw/*-key.txt
+ChainSpy/Resources/Raw/*key.txt

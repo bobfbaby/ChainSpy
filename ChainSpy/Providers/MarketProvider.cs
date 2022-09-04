@@ -16,10 +16,15 @@ namespace ChainSpy.Providers
         public MarketProvider()
         {
             this.httpClient = new HttpClient();
+
+            
         }
+
+        
+
         public async Task<List<CryptoPair>> GetMarketPrices()
         {
-
+            string key = await GetApiKey();
             var url = $"https://api.binance.com/api/v3/ticker/price?symbols=[\"BTCGBP\",\"XRPBTC\",\"XLMBTC\",\"HBARBTC\"]";
             var result = await httpClient.GetStringAsync(url);
 
@@ -27,6 +32,21 @@ namespace ChainSpy.Providers
             var pairs = await JsonConvert.DeserializeObjectAsync<List<CryptoPair>>(result.ToString());
 
             return pairs;
+        }
+
+        private async Task<string> GetApiKey()
+        {
+            try
+            {
+                using var stream = await FileSystem.OpenAppPackageFileAsync("Keys\livecoinwatch.txt");
+                using var reader = new StreamReader(stream);
+
+                return await reader.ReadToEndAsync();
+            }
+            catch (Exception ex)
+            {
+                return "";
+            }
         }
     }
 }

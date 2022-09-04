@@ -49,6 +49,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Keys\livecoinwatch.txt" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <PackageReference Include="CommunityToolkit.Maui" Version="1.2.0" />
 	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
 	  <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
@@ -61,6 +65,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiAsset Update="Resources\Raw\livecoinwatch-key.txt">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </MauiAsset>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="AddAddressPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -70,6 +80,10 @@
 	  <MauiXaml Update="QrReaderPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Resources\Keys\" />
 	</ItemGroup>
 
 </Project>
