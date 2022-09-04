@@ -12,5 +12,6 @@ namespace ChainSpy.Intefaces
         Task<List<Address>> GetAddresses();
 
         Task AddAddress(Address address);
+        Task RemoveAddress(ResolvedAddress address);
     }
 }

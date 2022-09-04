@@ -7,45 +7,51 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChainSpy
-build_property.ProjectDir = C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\
+build_property.ProjectDir = C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\
 
-[C:/Users/bobfbaby/source/repos/ChainSpy/ChainSpy/AddAddressPage.xaml]
+[C:/Users/bobfbaby/Desktop/Workspace/ChainSpy/ChainSpy/AddAddressPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ChainSpy.AddAddressPage.xaml
 build_metadata.AdditionalFiles.TargetPath = AddAddressPage.xaml
 build_metadata.AdditionalFiles.RelativePath = AddAddressPage.xaml
 
-[C:/Users/bobfbaby/source/repos/ChainSpy/ChainSpy/App.xaml]
+[C:/Users/bobfbaby/Desktop/Workspace/ChainSpy/ChainSpy/AddressDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChainSpy.AddressDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AddressDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AddressDetailPage.xaml
+
+[C:/Users/bobfbaby/Desktop/Workspace/ChainSpy/ChainSpy/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ChainSpy.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/bobfbaby/source/repos/ChainSpy/ChainSpy/AppShell.xaml]
+[C:/Users/bobfbaby/Desktop/Workspace/ChainSpy/ChainSpy/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ChainSpy.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/bobfbaby/source/repos/ChainSpy/ChainSpy/MainPage.xaml]
+[C:/Users/bobfbaby/Desktop/Workspace/ChainSpy/ChainSpy/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ChainSpy.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/bobfbaby/source/repos/ChainSpy/ChainSpy/QrReaderPage.xaml]
+[C:/Users/bobfbaby/Desktop/Workspace/ChainSpy/ChainSpy/QrReaderPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ChainSpy.QrReaderPage.xaml
 build_metadata.AdditionalFiles.TargetPath = QrReaderPage.xaml
 build_metadata.AdditionalFiles.RelativePath = QrReaderPage.xaml
 
-[C:/Users/bobfbaby/source/repos/ChainSpy/ChainSpy/Resources/Styles/Colors.xaml]
+[C:/Users/bobfbaby/Desktop/Workspace/ChainSpy/ChainSpy/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ChainSpy.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/bobfbaby/source/repos/ChainSpy/ChainSpy/Resources/Styles/Styles.xaml]
+[C:/Users/bobfbaby/Desktop/Workspace/ChainSpy/ChainSpy/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ChainSpy.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

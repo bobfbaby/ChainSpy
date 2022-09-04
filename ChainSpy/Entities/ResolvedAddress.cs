@@ -16,5 +16,15 @@ namespace ChainSpy.Entities
 
         public Address Address { get; }
         public CryptoBalance Balance { get; }
+        public CryptoPair BtcPrice { get; private set; }
+        public double UnitPriceGbp { get; private set; }
+        public double ValueInGbp { get; set; } = 0;
+
+        internal void SetPrice(CryptoPair pair, CryptoPair btcgpb)
+        {
+            BtcPrice = pair;
+            UnitPriceGbp = BtcPrice.Price * btcgpb.Price;
+            ValueInGbp = (Balance.Balance * pair.Price) * btcgpb.Price;
+        }
     }
 }

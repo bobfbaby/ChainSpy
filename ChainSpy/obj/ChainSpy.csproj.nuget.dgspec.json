@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bobfbaby\\source\\repos\\ChainSpy\\ChainSpy\\ChainSpy.csproj": {}
+    "C:\\Users\\bobfbaby\\Desktop\\Workspace\\ChainSpy\\ChainSpy\\ChainSpy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bobfbaby\\source\\repos\\ChainSpy\\ChainSpy\\ChainSpy.csproj": {
+    "C:\\Users\\bobfbaby\\Desktop\\Workspace\\ChainSpy\\ChainSpy\\ChainSpy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bobfbaby\\source\\repos\\ChainSpy\\ChainSpy\\ChainSpy.csproj",
+        "projectUniqueName": "C:\\Users\\bobfbaby\\Desktop\\Workspace\\ChainSpy\\ChainSpy\\ChainSpy.csproj",
         "projectName": "ChainSpy",
-        "projectPath": "C:\\Users\\bobfbaby\\source\\repos\\ChainSpy\\ChainSpy\\ChainSpy.csproj",
+        "projectPath": "C:\\Users\\bobfbaby\\Desktop\\Workspace\\ChainSpy\\ChainSpy\\ChainSpy.csproj",
         "packagesPath": "C:\\Users\\bobfbaby\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bobfbaby\\source\\repos\\ChainSpy\\ChainSpy\\obj\\",
+        "outputPath": "C:\\Users\\bobfbaby\\Desktop\\Workspace\\ChainSpy\\ChainSpy\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

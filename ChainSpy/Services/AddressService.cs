@@ -28,5 +28,11 @@ namespace ChainSpy.Services
             var connection = dbContext.GetConnection(); 
             return connection.Table<Address>().ToListAsync();
         }
+
+        public   Task RemoveAddress(ResolvedAddress address)
+        {
+            var connection = dbContext.GetConnection();
+            return connection.DeleteAsync(address.Address);
+        }
     }
 }

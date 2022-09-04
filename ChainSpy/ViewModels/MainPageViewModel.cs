@@ -1,6 +1,7 @@
 ﻿ 
 using ChainSpy.Entities;
 using ChainSpy.Intefaces;
+using ChainSpy.Providers;
 using ChainSpy.Services;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
@@ -18,20 +19,25 @@ namespace ChainSpy.ViewModels
     {
         private readonly IAddressService addressService;
         private readonly IBlockchainProvider blockchainProvider;
+        private readonly MarketProvider marketProvider;
 
 
         [ObservableProperty]
         private ObservableCollection<ResolvedAddress> addresses;
 
+        [ObservableProperty]
+        private ResolvedAddress selectedAddress;
 
-        public MainPageViewModel(IAddressService addressService, IBlockchainProvider blockchainProvider)
+        [ObservableProperty]
+        private double totalValue;
+
+        public MainPageViewModel(IAddressService addressService, IBlockchainProvider blockchainProvider, MarketProvider marketProvider)
         {
             Addresses = new ObservableCollection<ResolvedAddress>();
       
             this.addressService = addressService;
             this.blockchainProvider = blockchainProvider;
-            
-            
+            this.marketProvider = marketProvider;
         }
 
 
@@ -42,13 +48,28 @@ namespace ChainSpy.ViewModels
             {
                 var addresses = await addressService.GetAddresses();
                 Addresses = new ObservableCollection<ResolvedAddress>();
+                var prices = await marketProvider.GetMarketPrices();
+
+                var btcgpb = prices.FirstOrDefault(x => x.Pair == "BTCGBP");
 
                 foreach (var address in addresses)
                 {
                     CryptoBalance balance = await blockchainProvider.GetBalance(address);
-                    Addresses.Add(new ResolvedAddress(address, balance));
+
+                    var pair =  prices.FirstOrDefault(x => x.Pair == $"{address.BlockchainName}BTC");
+
+                    var resolved = new ResolvedAddress(address, balance);
+
+                    if (pair != null && btcgpb != null)
+                    {
+                        resolved.SetPrice(pair, btcgpb);
+                    }
+                    Addresses.Add(resolved);
                 }
-               
+
+                TotalValue = Addresses.Sum(x => x.ValueInGbp);
+
+
             }
             catch (Exception e)
             {
@@ -56,7 +77,15 @@ namespace ChainSpy.ViewModels
             }
         }
 
- 
+        [RelayCommand]
+        async Task SelectedAddressChanged() {
+
+            var o = selectedAddress;
+            await Shell.Current.GoToAsync(nameof(AddressDetailPage), new Dictionary<string, object>() { { "address", o } });
+
+        }
+
+
 
         [RelayCommand]
         private async Task ScanQr() {

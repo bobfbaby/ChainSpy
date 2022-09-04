@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChainSpy.AddressDetailPage"
+             xmlns:viewModels="clr-namespace:ChainSpy.ViewModels"
+             Title="AddressDetailPage" x:DataType="viewModels:AddressDetailViewModel" >
+    <VerticalStackLayout>
+        <Label  TextColor="{OnPlatform WinUI=White, Android=Black}" Text="{Binding Address.Address.Name}" TextTransform="Uppercase" FontSize="30" VerticalOptions="Start" HorizontalOptions="Start" />
+        <Label  TextColor="{OnPlatform WinUI=White, Android=Black}" Text="{Binding Address.Address.BlockchainName}" TextTransform="Uppercase"  VerticalOptions="Start" HorizontalOptions="Start" />
+        <Label  TextColor="{OnPlatform WinUI=White, Android=Black}" Text="{Binding Address.Balance.Balance}" TextTransform="Uppercase"  VerticalOptions="Start" HorizontalOptions="Start" />
+        <Label  TextColor="{OnPlatform WinUI=White, Android=Black}" Text="{Binding Address.ValueInGbp, StringFormat='{}{0:£00.##}'}" TextTransform="Uppercase"  VerticalOptions="Start" HorizontalOptions="Start" />
+        <Button Margin="0,30" Text="Delete" Command="{Binding DeleteAddressCommand}"></Button>
+    </VerticalStackLayout>
+</ContentPage>

@@ -25,7 +25,8 @@
             Padding="30,0"
             VerticalOptions="FillAndExpand">
 
-            <CollectionView ItemsSource="{Binding Addresses}">
+            <Label Text="{Binding TotalValue, StringFormat='{}{0:£00.##}'   }" FontSize="38" HorizontalOptions="Center"/>
+            <CollectionView ItemsSource="{Binding Addresses}" SelectionMode="Single" SelectionChangedCommand="{Binding SelectedAddressChangedCommand}" SelectedItem="{Binding SelectedAddress}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="entites:ResolvedAddress">
                         <SwipeView>
@@ -41,13 +42,18 @@
                                 <Frame>
                                     <StackLayout >
                                         <HorizontalStackLayout>
-                                            <Label Text="{Binding Address.Name}" FontSize="Header" TextTransform="Uppercase" TextColor="{OnPlatform WinUI=White, Android=Black}"/>
-                                            <Label Text="{Binding Address.BlockchainName} " TextColor="{OnPlatform WinUI=White, Android=Black}"/>
+                                            <Label Text="{Binding Address.BlockchainName} " FontSize="34" TextColor="{OnPlatform WinUI=White, Android=Black}"/>
+                                            <Label Text="{Binding Address.Name}"  TextTransform="Uppercase" TextColor="{OnPlatform WinUI=White, Android=Black}"/>
+                                            
 
                                         </HorizontalStackLayout>
-                                        <Label Text="{Binding Address.LedgerAddress}" TextColor="{OnPlatform WinUI=White, Android=Black}"/>
-                                        <Label Text="{Binding Balance.Balance} " TextColor="{OnPlatform WinUI=White, Android=Black}"/>
-                                         
+                                        <Label Text="{Binding Address.LedgerAddress}" FontSize="Micro" TextColor="{OnPlatform WinUI=White, Android=Black}"/>
+                                        <HorizontalStackLayout Margin="0,4,0,0">
+                                            <Label Text="{Binding Balance.Balance ,StringFormat='{}{0:00.#######}'} " TextColor="{OnPlatform WinUI=White, Android=Black}"/>
+                                            <Label Text="{Binding BtcPrice.Price ,StringFormat='{}{0:0.####### BTC}'} " Margin="12,0" TextColor="{OnPlatform WinUI=White, Android=Black}"/>
+                                            <Label Text="{Binding UnitPriceGbp ,StringFormat='{}{0:0.#######}'} " Margin="12,0" TextColor="{OnPlatform WinUI=White, Android=Black}"/>
+                                        </HorizontalStackLayout>
+                                        <Label Text="{Binding ValueInGbp, StringFormat='{}{0:£00.##}'   }" TextColor="{OnPlatform WinUI=White, Android=Black}" FontSize="20"/>
 
                                     </StackLayout>
 

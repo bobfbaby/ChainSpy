@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>795FA0C4-5E2B-47D1-9C11-9DD0A0E72B2E</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>519EDCB82105D4E9A5377DAF347B5A24602529AE5FBFC96156E88F063C793DC7</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>795FA0C4-5E2B-47D1-9C11-9DD0A0E72B2E_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>795FA0C4-5E2B-47D1-9C11-9DD0A0E72B2E_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,28 +26,28 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-09-04T08:36:47.376</Modified>
+      <Modified>2022-09-04T10:27:33.140</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-09-04T08:36:46.961</Modified>
+      <Modified>2022-09-04T10:27:32.685</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\ChainSpy.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\ChainSpy.runtimeconfig.json">
       <PackagePath>ChainSpy.runtimeconfig.json</PackagePath>
-      <Modified>2022-09-04T05:45:10.475</Modified>
+      <Modified>2022-09-04T09:52:47.320</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\ChainSpy.dll">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\ChainSpy.dll">
       <PackagePath>ChainSpy.dll</PackagePath>
-      <Modified>2022-09-04T08:36:46.056</Modified>
+      <Modified>2022-09-04T10:27:31.216</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ChainSpy.exe</PackagePath>
-      <Modified>2022-09-04T08:36:46.063</Modified>
+      <Modified>2022-09-04T10:27:31.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bobfbaby\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.8\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1121,9 +1121,9 @@
       <PackagePath>e_sqlite3.dll</PackagePath>
       <Modified>2022-09-02T23:29:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ChainSpy.deps.json">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ChainSpy.deps.json">
       <PackagePath>ChainSpy.deps.json</PackagePath>
-      <Modified>2022-09-04T08:36:47.250</Modified>
+      <Modified>2022-09-04T10:27:32.990</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\program files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.486\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1137,181 +1137,181 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2022-07-25T01:14:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2022-09-02T11:00:19.315</Modified>
+      <Modified>2022-09-04T09:05:19.236</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.072</Modified>
+      <Modified>2022-09-04T09:50:41.430</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.086</Modified>
+      <Modified>2022-09-04T09:50:41.444</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.104</Modified>
+      <Modified>2022-09-04T09:50:41.467</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.132</Modified>
+      <Modified>2022-09-04T09:50:41.495</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.236</Modified>
+      <Modified>2022-09-04T09:50:41.619</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2022-09-02T11:00:19.311</Modified>
+      <Modified>2022-09-04T09:05:19.234</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2022-09-02T11:00:19.312</Modified>
+      <Modified>2022-09-04T09:05:19.235</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2022-09-04T05:45:08.307</Modified>
+      <Modified>2022-09-04T09:50:41.688</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.465</Modified>
+      <Modified>2022-09-04T09:50:41.865</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.476</Modified>
+      <Modified>2022-09-04T09:50:41.879</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.484</Modified>
+      <Modified>2022-09-04T09:50:41.891</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.498</Modified>
+      <Modified>2022-09-04T09:50:41.916</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.550</Modified>
+      <Modified>2022-09-04T09:50:41.988</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.319</Modified>
+      <Modified>2022-09-04T09:50:41.700</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.322</Modified>
+      <Modified>2022-09-04T09:50:41.702</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.325</Modified>
+      <Modified>2022-09-04T09:50:41.705</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.329</Modified>
+      <Modified>2022-09-04T09:50:41.709</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.333</Modified>
+      <Modified>2022-09-04T09:50:41.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.373</Modified>
+      <Modified>2022-09-04T09:50:41.760</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.377</Modified>
+      <Modified>2022-09-04T09:50:41.765</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.382</Modified>
+      <Modified>2022-09-04T09:50:41.770</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.390</Modified>
+      <Modified>2022-09-04T09:50:41.777</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.403</Modified>
+      <Modified>2022-09-04T09:50:41.790</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.352</Modified>
+      <Modified>2022-09-04T09:50:41.739</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.355</Modified>
+      <Modified>2022-09-04T09:50:41.742</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.359</Modified>
+      <Modified>2022-09-04T09:50:41.745</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.362</Modified>
+      <Modified>2022-09-04T09:50:41.749</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.369</Modified>
+      <Modified>2022-09-04T09:50:41.756</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.336</Modified>
+      <Modified>2022-09-04T09:50:41.716</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.338</Modified>
+      <Modified>2022-09-04T09:50:41.719</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.341</Modified>
+      <Modified>2022-09-04T09:50:41.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.345</Modified>
+      <Modified>2022-09-04T09:50:41.727</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.349</Modified>
+      <Modified>2022-09-04T09:50:41.735</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.408</Modified>
+      <Modified>2022-09-04T09:50:41.795</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.414</Modified>
+      <Modified>2022-09-04T09:50:41.801</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.421</Modified>
+      <Modified>2022-09-04T09:50:41.808</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.431</Modified>
+      <Modified>2022-09-04T09:50:41.820</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.458</Modified>
+      <Modified>2022-09-04T09:50:41.857</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.300</Modified>
+      <Modified>2022-09-04T09:50:41.684</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.309</Modified>
+      <Modified>2022-09-04T09:50:41.695</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.324</Modified>
+      <Modified>2022-09-04T09:50:41.707</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.340</Modified>
+      <Modified>2022-09-04T09:50:41.724</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bobfbaby\source\repos\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\bobfbaby\Desktop\Workspace\ChainSpy\ChainSpy\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2022-09-04T05:45:08.379</Modified>
+      <Modified>2022-09-04T09:50:41.769</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -28,14 +28,35 @@
         <member name="P:ChainSpy.ViewModels.AddAddressPageViewModel.CancelAddCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ChainSpy.ViewModels.AddAddressPageViewModel.CancelAdd"/>.</summary>
         </member>
+        <member name="P:ChainSpy.ViewModels.AddressDetailViewModel.Address">
+            <inheritdoc cref="F:ChainSpy.ViewModels.AddressDetailViewModel.address"/>
+        </member>
+        <member name="F:ChainSpy.ViewModels.AddressDetailViewModel.deleteAddressCommand">
+            <summary>The backing field for <see cref="P:ChainSpy.ViewModels.AddressDetailViewModel.DeleteAddressCommand"/>.</summary>
+        </member>
+        <member name="P:ChainSpy.ViewModels.AddressDetailViewModel.DeleteAddressCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ChainSpy.ViewModels.AddressDetailViewModel.DeleteAddress"/>.</summary>
+        </member>
         <member name="P:ChainSpy.ViewModels.MainPageViewModel.Addresses">
             <inheritdoc cref="F:ChainSpy.ViewModels.MainPageViewModel.addresses"/>
+        </member>
+        <member name="P:ChainSpy.ViewModels.MainPageViewModel.SelectedAddress">
+            <inheritdoc cref="F:ChainSpy.ViewModels.MainPageViewModel.selectedAddress"/>
+        </member>
+        <member name="P:ChainSpy.ViewModels.MainPageViewModel.TotalValue">
+            <inheritdoc cref="F:ChainSpy.ViewModels.MainPageViewModel.totalValue"/>
         </member>
         <member name="F:ChainSpy.ViewModels.MainPageViewModel.loadDataCommand">
             <summary>The backing field for <see cref="P:ChainSpy.ViewModels.MainPageViewModel.LoadDataCommand"/>.</summary>
         </member>
         <member name="P:ChainSpy.ViewModels.MainPageViewModel.LoadDataCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ChainSpy.ViewModels.MainPageViewModel.LoadData"/>.</summary>
+        </member>
+        <member name="F:ChainSpy.ViewModels.MainPageViewModel.selectedAddressChangedCommand">
+            <summary>The backing field for <see cref="P:ChainSpy.ViewModels.MainPageViewModel.SelectedAddressChangedCommand"/>.</summary>
+        </member>
+        <member name="P:ChainSpy.ViewModels.MainPageViewModel.SelectedAddressChangedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ChainSpy.ViewModels.MainPageViewModel.SelectedAddressChanged"/>.</summary>
         </member>
         <member name="F:ChainSpy.ViewModels.MainPageViewModel.scanQrCommand">
             <summary>The backing field for <see cref="P:ChainSpy.ViewModels.MainPageViewModel.ScanQrCommand"/>.</summary>

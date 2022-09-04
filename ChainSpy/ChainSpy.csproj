@@ -64,6 +64,9 @@
 	  <MauiXaml Update="AddAddressPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="AddressDetailPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="QrReaderPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

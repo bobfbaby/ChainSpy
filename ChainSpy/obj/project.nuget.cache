@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "apvXFYMI5xrBRA6QeOUGJT938dOfT+UlcRvUVEJnNHxzFVd4kDkwgnxXqz3LrCg4fWBNxF5RG0+M6Je5t55xzw==",
+  "dgSpecHash": "fMfqxBCfiV0xvbmgqhYNZFD+6HIfm2Z1JOHrgt9dwDGx1XjRYYSAwTp0HYKdgMO+ghnMiaKmpfMLArRYPH4QpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bobfbaby\\source\\repos\\ChainSpy\\ChainSpy\\ChainSpy.csproj",
+  "projectFilePath": "C:\\Users\\bobfbaby\\Desktop\\Workspace\\ChainSpy\\ChainSpy\\ChainSpy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bobfbaby\\.nuget\\packages\\communitytoolkit.maui\\1.2.0\\communitytoolkit.maui.1.2.0.nupkg.sha512",
     "C:\\Users\\bobfbaby\\.nuget\\packages\\communitytoolkit.maui.core\\1.2.0\\communitytoolkit.maui.core.1.2.0.nupkg.sha512",
