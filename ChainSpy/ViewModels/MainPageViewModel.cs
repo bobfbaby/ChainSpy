@@ -30,16 +30,7 @@ namespace ChainSpy.ViewModels
       
             this.addressService = addressService;
             this.blockchainProvider = blockchainProvider;
-            Task.Run(async () => {
-
-                await addressService.AddAddress(new Address()
-                {
-
-                    Name = "test",
-                    BlockchainName = "TST",
-                    LedgerAddress = "0x0x0x00x0x0x"
-                });
-            });
+            
             
         }
 
