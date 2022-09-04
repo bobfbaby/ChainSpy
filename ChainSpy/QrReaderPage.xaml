@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChainSpy.QrReaderPage"
+             xmlns:zxing="clr-namespace:ZXing.Net.Maui.Controls;assembly=ZXing.Net.MAUI"
+             Title="QrReaderPage"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:viewModels="clr-namespace:ChainSpy.ViewModels"
+             xmlns:converters="clr-namespace:ChainSpy.Converters"
+             x:DataType="viewModels:QrReaderViewModel">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:BarcodeDetectedEventArgsConverter x:Key="barcodeDetectedConverter"/>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <VerticalStackLayout >
+        <zxing:CameraBarcodeReaderView  VerticalOptions="Start"
+            x:Name="cameraBarcodeReaderView"   
+            Options="{Binding Options}" 
+          >
+            <zxing:CameraBarcodeReaderView.Behaviors>
+                <toolkit:EventToCommandBehavior 
+                    EventName="BarcodesDetected" 
+                    Command="{Binding BarcodeDetectedCommand}"  EventArgsConverter="{StaticResource Key=barcodeDetectedConverter}"/>
+            </zxing:CameraBarcodeReaderView.Behaviors>
+        </zxing:CameraBarcodeReaderView>
+        <Label Text="{Binding BarcodeResult}"/>
+    </VerticalStackLayout>
+</ContentPage>

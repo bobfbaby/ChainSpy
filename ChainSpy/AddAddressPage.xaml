@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChainSpy.AddAddressPage"
+             xmlns:viewModels="clr-namespace:ChainSpy.ViewModels"
+             Title="AddAddressPage" x:DataType="viewModels:AddAddressPageViewModel">
+
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior IsEnabled="False" Command="{x:Null}"
+                            />
+    </Shell.BackButtonBehavior>
+    
+    
+    <VerticalStackLayout>
+
+        <Grid Padding="6" ColumnSpacing="12" RowSpacing="8">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition  Width="Auto"/>
+                <ColumnDefinition Width="*"/>                
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Label VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="0"  Text="Name:"></Label>
+            <Frame Grid.Row="0" Grid.Column="1" HorizontalOptions="FillAndExpand" Padding="2,3">
+                <Entry TextColor="{OnPlatform WinUI=White, Android=Black}"  HorizontalOptions="FillAndExpand" Text="{Binding Name}"></Entry>
+            </Frame>
+
+            <Label VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="0"  Text="Address:"></Label>
+            <Frame Grid.Row="1" Grid.Column="1" HorizontalOptions="FillAndExpand" Padding="2,3">
+                <Entry TextColor="{OnPlatform WinUI=White, Android=Black}"   HorizontalOptions="FillAndExpand" Text="{Binding Address}"></Entry>
+            </Frame>
+
+            <Label VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="0"  Text="Blockchain:"></Label>
+
+            <Picker  HorizontalOptions="FillAndExpand"  Margin="2,3" Grid.Row="2" Grid.Column="1" 
+                     TextColor="{OnPlatform WinUI=White, Android=Black}" ItemsSource="{Binding AcceptedBlockchains}" 
+                     SelectedItem="{Binding SelectedBlockchain}"></Picker>                 
+             
+        </Grid>
+        
+        <HorizontalStackLayout HorizontalOptions="Center" Margin="0,12" Spacing="26">
+            <Button Margin="0,6" Text="Cancel" Command="{Binding CancelAddCommand}"></Button>
+            <Button Margin="0,6" Text="Add" Command="{Binding AddAddressCommand}"></Button>
+            
+        </HorizontalStackLayout>
+
+
+        
+    </VerticalStackLayout>
+</ContentPage>

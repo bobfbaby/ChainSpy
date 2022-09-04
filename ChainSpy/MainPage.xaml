@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChainSpy.MainPage"
+             xmlns:viewModels="clr-namespace:ChainSpy.ViewModels"
+             xmlns:entites="clr-namespace:ChainSpy.Entities" 
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:DataType="viewModels:MainPageViewModel" >
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior 
+                    EventName="Loaded" 
+                    Command="{Binding LoadDataCommand}"  />
+    </ContentPage.Behaviors>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Refresh" IconImageSource="Resources\appicon.svg" Command="{Binding RefreshDataCommand}"></ToolbarItem>
+        <ToolbarItem Text="Scan QR" Command="{Binding ScanQrCommand}"></ToolbarItem>
+        <ToolbarItem Text="Add Address" Command="{Binding AddAddressCommand}"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="FillAndExpand">
+
+            <CollectionView ItemsSource="{Binding Addresses}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="entites:ResolvedAddress">
+                        <SwipeView>
+                            <!--<SwipeView.RightItems>
+                                <SwipeItems>
+                                    
+                                    <SwipeItem Text="Remove" Command="{Binding RemoveAddressCommand}" BackgroundColor="Red">
+                                       
+                                    </SwipeItem>
+                                </SwipeItems>
+                            </SwipeView.RightItems>-->
+                            <Grid Padding="0,5">
+                                <Frame>
+                                    <StackLayout >
+                                        <HorizontalStackLayout>
+                                            <Label Text="{Binding Address.Name}" FontSize="Header" TextTransform="Uppercase" TextColor="{OnPlatform WinUI=White, Android=Black}"/>
+                                            <Label Text="{Binding Address.BlockchainName} " TextColor="{OnPlatform WinUI=White, Android=Black}"/>
+
+                                        </HorizontalStackLayout>
+                                        <Label Text="{Binding Address.LedgerAddress}" TextColor="{OnPlatform WinUI=White, Android=Black}"/>
+                                        <Label Text="{Binding Balance.Balance} " TextColor="{OnPlatform WinUI=White, Android=Black}"/>
+                                         
+
+                                    </StackLayout>
+
+                                </Frame>
+
+                            </Grid>
+                        </SwipeView>
+                    </DataTemplate>
+                    
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
